@@ -5,6 +5,7 @@ class SuperHerosController < ApplicationController
   # GET /super_heros.json
   def index
     @super_heros = SuperHero.all
+    @x = 100
   end
 
   # GET /super_heros/1
